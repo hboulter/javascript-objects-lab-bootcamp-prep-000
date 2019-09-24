@@ -7,4 +7,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 function deleteFromObjectByKey(object, key) {
   var object = recipes
   delete object[key];
+  return object
 }
